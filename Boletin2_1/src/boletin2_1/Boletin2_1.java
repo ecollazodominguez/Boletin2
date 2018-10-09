@@ -23,10 +23,8 @@ public class Boletin2_1 {
         float pt=ler.nextFloat();
         System.out.println("Precio pagado: ");
         float pp=ler.nextFloat();
-        
-        float pd=pt-pp;
-        
-        System.out.println("Porcentaje descontada: "+pd/pt*100+" %");
+         
+        System.out.println("Porcentaje descontada: "+(pt-pp)/pt*100+" %");
         
  
     }
